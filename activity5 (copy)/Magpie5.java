@@ -44,35 +44,6 @@ public class Magpie5
         {
             response = "Why so negative?";
         }
-        else if (findKeyword(statement, "your name") >= 0)
-        {
-            response = "My name is Lin-Manuel Miranda.";
-        }
-        else if (findKeyword(statement, "married") >= 0)
-        {
-            response = "I am married to Vanessa Nadal.";
-        }
-        else if (findKeyword(statement, "live") >= 0)
-        {
-            response = "I live in New York.";
-        }
-        else if (findKeyword(statement, "children") >= 0
-                || findKeyword(statement, "kids") >=0)
-        {
-            response = "I have two children.";
-        }
-        else if (findKeyword(statement, "their names") >= 0)
-        {
-            response = "Sebastian and Francisco";
-        }
-        else if (findKeyword(statement, "famous") >= 0)
-        {
-            response = "I am known for creating the broadway musical Hamilton.";
-        }
-        else if (findKeyword(statement, "born") >= 0)
-        {
-            response = "I was born in Manhattan in January 16, 1980.";
-        }
         else if (findKeyword(statement, "mother") >= 0
                 || findKeyword(statement, "father") >= 0
                 || findKeyword(statement, "sister") >= 0
@@ -293,9 +264,6 @@ public class Magpie5
     }
     
     private String [] randomResponses = {"Interesting, tell me more",
-            "I also acted in Enchanto as Mirabel Madrigo.",
-            "It took me seven years to write Hamilton.",
-            "Did you know before I became famous I was a teacher?",
             "Hmmm.",
             "Do you really think so?",
             "You don't say.",
